@@ -6,7 +6,7 @@ import Header from './common/Header';
 import PageNotFound from './PageNotFound';
 import CoursesPage from './courses/CoursesPage';
 
-function App() {
+const App = () => {
   return (
     <div className="container-fluid">
       <Header />
@@ -18,6 +18,6 @@ function App() {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;
