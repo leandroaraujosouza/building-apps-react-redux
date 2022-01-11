@@ -48,7 +48,12 @@ const CourseForm = ({
         error={errors.category}
       />
 
-      <button type="submit" disabled={saving} className="btn btn-primary">
+      <button
+        style={{ margin: '8px 0px' }}
+        type="submit"
+        disabled={saving}
+        className="btn btn-primary"
+      >
         {saving ? 'Saving...' : 'Save'}
       </button>
     </form>
